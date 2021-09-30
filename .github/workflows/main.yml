@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-steps:
+    steps:
     - name: Setup cmake
       uses: jwlawson/actions-setup-cmake@v1.9
       with:
