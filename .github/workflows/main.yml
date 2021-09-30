@@ -12,3 +12,5 @@ jobs:
       uses: jwlawson/actions-setup-cmake@v1.9
       with:
         cmake-version: '3.21.x'
+    - name: Use cmake
+      run: cmake --version
